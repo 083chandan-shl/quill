@@ -145,7 +145,7 @@ module.exports = function(env) {
         sourceMap: true
       })
     );
-    config.devtool = 'source-map';
+    config.devtool = 'cheap-module-source-map';
   }
 
   if (env && env.coverage) {
